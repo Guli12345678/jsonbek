@@ -1,0 +1,46 @@
+.posts {
+  padding: 32px;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom right, #f8f0f8, #d8bfd8);
+  min-height: 100vh;
+  margin-top: 100px;
+
+  h2 {
+    color: #a070a0;
+    font-size: 38px;
+    margin-bottom: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .container.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    padding: 16px;
+
+    div {
+      background-color: #ffffff;
+      border: 2px #d8bfd8;
+      border-radius: 16px;
+      padding: 24px;
+      transition: 0.3s;
+      position: relative;
+
+      h3 {
+        margin: 8px 0;
+        color: #444;
+        font-size: 19px;
+        line-height: 24px;
+        text-align: center;
+      }
+
+      p {
+        margin: 8px 0;
+        color: #666;
+        font-size: 17px;
+        line-height: 22px;
+        text-align: center;
+      }
+    }
+  }
+}
